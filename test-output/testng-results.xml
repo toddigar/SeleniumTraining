@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: chrome not reachable
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: '0d254812d69c', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.14.285-147.501.amzn1.x86_64', java.version: '11.0.15'
+Driver info: driver.version: unknown
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: '0d254812d69c', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.14.285-147.501.amzn1.x86_64', java.version: '11.0.15'
+Driver info: driver.version: unknown
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: '7210665490ca', ip: '172.18.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '4.14.285-147.501.amzn1.x86_64', java.version: '11.0.15'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-UG2P139V', ip: '192.168.0.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}], desiredCapabilities=Capabilities {browserName: chrome}}]
+Capabilities {}]]>
+    </line>
+    <line>
+      <![CDATA[The browser is before method]]>
+    </line>
+    <line>
+      <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-UG2P139V', ip: '192.168.0.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}], desiredCapabilities=Capabilities {browserName: chrome}}]
+Capabilities {}]]>
+    </line>
+    <line>
+      <![CDATA[The browser is before method]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-17T23:08:09 IST" name="Suite" finished-at="2022-07-17T23:11:23 IST" duration-ms="193888">
+    <groups>
+    </groups>
+    <test started-at="2022-07-17T23:08:09 IST" name="Test" finished-at="2022-07-17T23:11:23 IST" duration-ms="193888">
+      <class name="newpackage.TestCase_03">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:newpackage.TestCase_03@29e495ff]" started-at="2022-07-17T23:08:09 IST" name="beforeMethod" finished-at="2022-07-17T23:10:07 IST" duration-ms="117893" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+at newpackage.TestCase_03.beforeMethod(TestCase_03.java:94)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: chrome not reachable
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: '0d254812d69c', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.14.285-147.501.amzn1.x86_64', java.version: '11.0.15'
+Driver info: driver.version: unknown
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: '0d254812d69c', ip: '172.18.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.14.285-147.501.amzn1.x86_64', java.version: '11.0.15'
+Driver info: driver.version: unknown
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: '7210665490ca', ip: '172.18.0.2', os.name: 'Linux', os.arch: 'amd64', os.version: '4.14.285-147.501.amzn1.x86_64', java.version: '11.0.15'
+Driver info: driver.version: unknown
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-UG2P139V', ip: '192.168.0.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}], desiredCapabilities=Capabilities {browserName: chrome}}]
+Capabilities {}]]>
+            </line>
+            <line>
+              <![CDATA[The browser is before method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:newpackage.TestCase_03@29e495ff]" started-at="2022-07-17T23:08:09 IST" name="beforeMethod" finished-at="2022-07-17T23:11:23 IST" duration-ms="193795" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+at newpackage.TestCase_03.beforeMethod(TestCase_03.java:94)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'LAPTOP-UG2P139V', ip: '192.168.0.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}], desiredCapabilities=Capabilities {browserName: chrome}}]
+Capabilities {}]]>
+            </line>
+            <line>
+              <![CDATA[The browser is before method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="tc_001()[pri:0, instance:newpackage.TestCase_03@29e495ff]" started-at="2022-07-17T23:10:07 IST" name="tc_001" finished-at="2022-07-17T23:10:07 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+at newpackage.TestCase_03.beforeMethod(TestCase_03.java:94)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_001 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:newpackage.TestCase_03@29e495ff]" started-at="2022-07-17T23:10:07 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1658079607329" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="tc_002()[pri:0, instance:newpackage.TestCase_03@29e495ff]" started-at="2022-07-17T23:11:23 IST" name="tc_002" finished-at="2022-07-17T23:11:23 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because "this.driver" is null
+at newpackage.TestCase_03.beforeMethod(TestCase_03.java:94)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_002 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:newpackage.TestCase_03@29e495ff]" started-at="2022-07-17T23:11:23 IST" name="afterMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1658079683217" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- newpackage.TestCase_03 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
